@@ -3220,15 +3220,20 @@ input, select, textarea {
 
 	}
 
+
+	
 	/*My  classes  */
 .project-name:hover{
 	text-decoration: underline;
 }
 
 .project-thumb:hover{
-	opacity: 1;
+	/* opacity: 1;
 	padding:2px;
-	border-radius: 8px;
+	border-radius: 8px; */
+	/* border:#5cc6a7 2px solid; */
+	transform: scale(0.98);
+	transition: transform 0.2s ease-in-out;
 }
 
 .cad-coinsorter{
@@ -3268,3 +3273,4 @@ input, select, textarea {
 	border-radius: 10px;
 	margin-top: -20px;
 }
+
